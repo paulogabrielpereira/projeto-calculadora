@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="calc-container" class="calc-container">
+        <section id="calc-name" class="calc-name">
+            <h1 id="calc-title">Casio</h1>
+        </section>
+        <section id="calc-display" class="calc-display">
+            <h2 id="calc-show">0</h2>
+        </section>
+        <section id="calc-keys" class="calc-keys">
+            <table id="keys">
+                <tr id="line1" class="calc-line">
+                    <td class="key">
+                        <button type="button" class="btn-key btn-num" id="n7">7</button>
+                    </td>
+                    <td class="key">
+                        <button type="button" class="btn-key btn-num" id="n8">8</button>
+                    </td>
+                    <td class="key">
+                        <button type="button" class="btn-key btn-num" id="n9">9</button>
+                    </td>
+                    <td class="key">
+                        <button type="button" class="btn-key btn-op" id="op-add">+</button>
+                    </td>
+                </tr>
+                <tr id="line2" class="calc-line">
+                    <td class="key">
+                        <button type="button" class="btn-key btn-num" id="n4">4</button>
+                    </td>
+                    <td class="key">
+                        <button type="button" class="btn-key btn-num" id="n5">5</button>
+                    </td>
+                    <td class="key">
+                        <button type="button" class="btn-key btn-num" id="n6">6</button>
+                    </td>
+                    <td class="key">
+                        <button type="button" class="btn-key btn-op" id="op-sub">-</button>
+                    </td>
+                </tr>
+                <tr id="line3" class="calc-line">
+                    <td class="key">
+                        <button type="button" class="btn-key btn-num" id="n1">1</button>
+                    </td>
+                    <td class="key">
+                        <button type="button" class="btn-key btn-num" id="n2">2</button>
+                    </td>
+                    <td class="key">
+                        <button type="button" class="btn-key btn-num" id="n3">3</button>
+                    </td>
+                    <td class="key">
+                        <button type="button" class="btn-key btn-op" id="op-tim">X</button>
+                    </td>
+                </tr>
+                <tr id="line4" class="calc-line">
+                    <td class="key">
+                        <button type="button" class="btn-key btn-num" id="n0">0</button>
+                    </td>
+                    <td class="key">
+                        <button type="button" class="btn-key btn-op" id="open-par">(</button>
+                    </td>
+                    <td class="key">
+                        <button type="button" class="btn-key btn-op" id="close-par">)</button>
+                    </td>
+                    <td class="key">
+                        <button type="button" class="btn-key btn-op" id="op-div">/</button>
+                    </td>
+                </tr> 
+                <tr id="line5" class="calc-line">
+                    <td class="key">
+                        <button type="button" class="btn-key btn-op" id="op-pow">x<sup>y</sup></button>
+                    </td>
+                    <td class="key">
+                        <button type="button" class="btn-key btn-op" id="op-fat">x!</button>
+                    </td>
+                    <td class="key">
+                        <button type="button" class="btn-key btn-op" id="op-rad">&#x221A;</button>
+                    </td>
+                    <td class="key">
+                        <button type="button" class="btn-key btn-op" id="op-float">,</button>
+                    </td>
+                </tr>
+                <tr id="line6" class="calc-line">
+                    <td class="key">
+                        <button type="button" class="btn-key btn-op btn-esp" id="toggle-signal">+/-</button>
+                    </td>
+                    <td class="key">
+                        <button type="button" class="btn-key btn-esp" id="clear-each">CE</button>
+                    </td>
+                    <td class="key">
+                        <button type="button" class="btn-key btn-esp" id="clear-all">C</button>
+                    </td>
+                    <td class="key">
+                        <button type="button" class="btn-key btn-esp" id="equals">=</button>
+                    </td>
+                </tr>
+                <tr id="line7" class="calc-line">
+                    <td class="key" colspan="4">
+                        <button type="button" class="btn-key btn-off" id="onoff">ON</button>
+                    </td>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>

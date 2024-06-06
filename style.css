@@ -1,0 +1,150 @@
+* 
+{
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+body
+{
+    background: linear-gradient(45deg, #3d86f5, #1057c5) no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+::-webkit-scrollbar {
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.calc-container 
+{
+    background-color: #445;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.384);
+}
+
+.calc-container > .calc-name 
+{
+    color: #889;
+    font-size: 1em;
+    text-align: center;
+}
+
+#calc-title
+{
+    width: 310px;
+    padding: 10px;
+}
+
+.calc-container > .calc-display 
+{
+    background-color: #ccd;
+    padding: 0 3px;
+    margin: 20px;
+    height: 70px;
+    width: 310px;
+    white-space: nowrap;
+    border-radius: 5px;
+    font-size: 1.4em;
+    text-align: end;
+    cursor: default;
+    display: flex;
+    align-items: center;
+    overflow: auto;
+}
+
+#calc-show
+{
+    width: 100%;
+    text-align: end;
+}
+
+.calc-container > .calc-keys 
+{
+    background-color: #778;
+    height: 500px;
+    width: 310px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#keys
+{
+    border-collapse: collapse;
+}
+
+#keys .btn-key
+{
+    font-size: 3em;
+    width: 65px;
+    height: 65px;
+    margin: 2.5px 5px;
+    background-color: #99a;
+    border-radius: 5px;
+    border: 3px solid #445;
+    cursor: pointer;
+}
+
+#keys .btn-key:focus
+{
+    outline: none;
+}
+
+#keys .btn-esp
+{
+    background-color: #445;
+    border-color: #99a;
+    font-size: 2em;
+}
+
+#op-rad
+{
+    padding: 15px 0;
+}
+
+#onoff
+{
+    font-size: 1.8em !important;
+    width: 290px !important;
+}
+
+#keys .btn-on
+{
+    background-color: #b00;
+    border-color: #800;
+}
+
+#keys .btn-off
+{
+    background-color: #0b0;
+    border-color: #080;
+}
+sup
+{
+    font-size: 0.6em;
+}
